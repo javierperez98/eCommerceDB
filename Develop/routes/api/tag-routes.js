@@ -46,14 +46,11 @@ router.post("/", async (req, res) => {
 router.put("/:id", async (req, res) => {
 	// update a tag's name by its `id` value
 	try {
-		const tag = await Tag.update(
-			{ tag_name: req.params.tag_name },
-			{
-				where: {
-					id: req.params.id,
-				},
-			}
-		);
+		const tag = await Tag.update(req.body, {
+			where: {
+				id: req.params.id,
+			},
+		});
 
 		if (!tag) {
 			res.status(404).json({ message: "No location found with this id!" });
