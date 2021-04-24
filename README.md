@@ -1,4 +1,4 @@
-# Employee Tracker
+# E-Commerce Store
 
 ![MIT](https://img.shields.io/github/license/microsoft/vscode)
 
@@ -7,7 +7,10 @@
 <!-- Provide a short description explaining the what, why, and how of your project.
 What was your motivation? Why did you build this project? What problem does it solve? What did you learn? -->
 
--
+- This project I tackled the task of creating the Back End Database for an E-Commerce Store. Using MYSQL, Node.js, Express.js, and Node modules
+  to create the route and the database that will receive and send that data stored.
+- I learned how to create routes using Sequelize to connect the server to the database. I also learned how to join, store and receive the data.
+- I really enjoyed this project and using all these languages to create a Back End database it was challenging and fun.
 
 ## Table of Contents
 
@@ -67,7 +70,7 @@ npm run seeds
 
 ### Video Demo of App: [Click Here]()
 
-When you want to launch the application open server.js in the terminal and run the command to start
+### When you want to launch the application open server.js in the terminal and run the command to start
 
 ```md
 npm start
@@ -75,9 +78,11 @@ npm start
 
 ![Command NPM Start should look like this in the terminal](Assets/npmStart.png)
 
-Next use a program like Insomnia to get, add, update and delete information to and from the database.
+### Next use a program like Insomnia to get, add, update and delete information to and from the database.
 
-![]()
+![Get request for one Tag, Product or Category](Assets/GetOne.gif)
+![Get request for all Tags, Products or Categories](Assets/GetRoutes.gif)
+![Create, Update and Delete request for Tags](Assets/PostPutDeleteTag.gif)
 
 ## Credits
 
