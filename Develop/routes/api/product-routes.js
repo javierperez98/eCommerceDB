@@ -25,6 +25,10 @@ router.get("/:id", async (req, res) => {
 		const product = await Product.findByPk(req.params.id, {
 			include: [{ model: Category }, { model: Tag, as: "tags" }],
 		});
+		if (!product) {
+			res.status(404).json({ message: "No location found with this id!" });
+			return;
+		}
 		res.status(200).json(product);
 	} catch (err) {
 		res.status(500).json(err);

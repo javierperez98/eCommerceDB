@@ -20,7 +20,7 @@ What was your motivation? Why did you build this project? What problem does it s
 - [License](#license)
 - [Questions](#questions)
 
-## Installation
+# Installation
 
 <!-- What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. -->
 
@@ -39,11 +39,12 @@ or
 npm install
 ```
 
-### Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands.
+### Use the following MySQL shell commands to create the database.
 
 MYSQL Database
 
 ```md
+mysql -u root -p
 DROP DATABASE IF EXISTS ecommerce_db;
 CREATE DATABASE ecommerce_db;
 ```
@@ -64,7 +65,7 @@ DB_NAME = ecommerce_db
 npm run seeds
 ```
 
-## Usage
+# Usage
 
 <!-- Provide instructions and examples for use. Include screenshots as needed. -->
 
@@ -84,7 +85,7 @@ npm start
 ![Get request for all Tags, Products or Categories](Assets/GetRoutes.gif)
 ![Create, Update and Delete request for Tags](Assets/PostPutDeleteTag.gif)
 
-## Credits
+# Credits
 
 <!-- List your collaborators, if any, with links to their GitHub profiles. Links to websites or resources. -->
 
@@ -98,7 +99,7 @@ npm start
 - https://sequelize.org/
 - https://www.npmjs.com/package/mysql2
 
-## License
+# License
 
 <!-- If you need help choosing a license, refer to https://choosealicense.com/ -->
 
@@ -124,7 +125,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Questions
+# Questions
 
 Contact me for any questions you might have.
 
