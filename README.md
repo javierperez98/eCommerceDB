@@ -62,7 +62,7 @@ DB_NAME = ecommerce_db
 ### Once the Database is created, seed all the information into the database by running this command in the terminal of server.js
 
 ```md
-npm run seeds
+npm run seed
 ```
 
 # Usage
