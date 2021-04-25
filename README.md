@@ -69,7 +69,7 @@ npm run seeds
 
 <!-- Provide instructions and examples for use. Include screenshots as needed. -->
 
-### Video Demo of App: [Click Here]()
+### Video Demo of App: [Click Here](https://drive.google.com/file/d/1ED3cwFCx-R1gOl0mR-Y7eOHDeo9cqIhL/view?usp=sharing)
 
 ### When you want to launch the application open server.js in the terminal and run the command to start
 
